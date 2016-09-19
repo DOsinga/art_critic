@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8572C0840AB5080473697D6F4AA182AE7C9910B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DEF827AEE61008D72BA753A95234A28088662AAB" : 0,
+    "E8572C0840AB5080473697D6F4AA182AE7C9910B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "850CD8EA-949D-45BA-B8D0-B7CF68969123",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DEF827AEE61008D72BA753A95234A28088662AAB" : "..\/..\/..\/checkout\/tensorflow",
+    "E8572C0840AB5080473697D6F4AA182AE7C9910B" : "art_critic\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "camera_example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "camera\/camera_example.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tensorflow\/tensorflow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEF827AEE61008D72BA753A95234A28088662AAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DOsinga\/art_critic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8572C0840AB5080473697D6F4AA182AE7C9910B"
+    }
+  ]
+}

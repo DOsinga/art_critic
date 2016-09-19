@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Uu-FQ-jzS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Art Critic-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haU-R2-Uto">
+                                <rect key="frame" x="0.0" y="72" width="408" height="408"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="38P-vd-2sb">
+                                <rect key="frame" x="0.0" y="516" width="414" height="220"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7p-Ni-22x">
+                                        <rect key="frame" x="150" y="152" width="114" height="60"/>
+                                        <color key="backgroundColor" red="0.69007141053792298" green="0.28786330890876805" blue="0.93438914027149322" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Analyze!"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VM-lN-vOb">
+                                        <rect key="frame" x="8" y="8" width="398" height="89"/>
+                                        <string key="text">Use the button below to start the analyzing process. Make sure that the view finder only shows the art work you want to analyze even if that means cutting of bits of it.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.58823529409999997" green="0.2470588235" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5VM-lN-vOb" firstAttribute="top" secondItem="38P-vd-2sb" secondAttribute="top" constant="8" id="9qv-bM-llx"/>
+                                    <constraint firstAttribute="trailing" secondItem="5VM-lN-vOb" secondAttribute="trailing" constant="8" id="hfG-74-eHc"/>
+                                    <constraint firstItem="z7p-Ni-22x" firstAttribute="centerX" secondItem="38P-vd-2sb" secondAttribute="centerX" id="ph7-VE-Op0"/>
+                                    <constraint firstAttribute="bottom" secondItem="z7p-Ni-22x" secondAttribute="bottom" constant="8" id="tyr-5O-2Aa"/>
+                                    <constraint firstItem="5VM-lN-vOb" firstAttribute="leading" secondItem="38P-vd-2sb" secondAttribute="leading" constant="8" id="wiz-ou-Jqc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="38P-vd-2sb" secondAttribute="trailing" constant="-20" id="Wqe-6H-B4n"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="38P-vd-2sb" secondAttribute="bottom" id="cnU-Mh-nib"/>
+                            <constraint firstItem="38P-vd-2sb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ui1-ri-a1Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Art Critic" id="3MO-La-dGi">
+                        <barButtonItem key="rightBarButtonItem" title="About" id="OZZ-5P-CJj">
+                            <connections>
+                                <segue destination="OlS-Gp-ZZQ" kind="popoverPresentation" popoverAnchorBarButtonItem="OZZ-5P-CJj" id="bMa-KE-Qxi">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="buttonAnalyze" destination="z7p-Ni-22x" id="scn-qY-Iwq"/>
+                        <outlet property="labelExplain" destination="5VM-lN-vOb" id="ofW-o0-95t"/>
+                        <outlet property="viewBottom" destination="38P-vd-2sb" id="BN4-fr-7iP"/>
+                        <outlet property="viewCameraPreview" destination="haU-R2-Uto" id="Tvf-I5-it1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="415"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QPQ-4R-2As">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Uu-FQ-jzS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="j8e-2Z-6iW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.58823529409999997" green="0.2470588235" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.58823529409999997" green="0.2470588235" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="g07-mg-8tO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v4J-uI-RFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1075"/>
+        </scene>
+        <!--About Art Critic-->
+        <scene sceneID="5NL-do-wbx">
+            <objects>
+                <viewController id="b7a-gR-GuW" customClass="AboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1t7-35-TbP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hih-8q-haZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pv8-j2-lIM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXk-3i-OwB">
+                                <rect key="frame" x="16" y="84" width="128" height="128"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="bk9-T4-47B">
+                                        <rect key="frame" x="-1" y="0.0" width="129" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.58823529409999997" green="0.78823529410000004" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="WnY-Hc-wLu"/>
+                                    <constraint firstAttribute="width" constant="128" id="iqB-Yy-wn1"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F31-XK-AQg">
+                                <rect key="frame" x="156" y="84" width="249" height="128"/>
+                                <string key="text">Art Critic runs a TensorFlow based classifer on the device to detect the style of artworks. You can bring it on your trip to show off how much you knwow about art.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFC-co-aJb">
+                                <rect key="frame" x="20" y="227" width="285" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SsX-3A-mSK">
+                                <rect key="frame" x="20" y="270" width="285" height="139"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The model uses TensorFlow and is trained on data coming from the Wikipedia. You can see the source code of this project including the data processing at my github prository.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BXk-3i-OwB" firstAttribute="top" secondItem="1t7-35-TbP" secondAttribute="bottom" constant="20" id="3Yj-qP-La1"/>
+                            <constraint firstItem="xFC-co-aJb" firstAttribute="top" secondItem="F31-XK-AQg" secondAttribute="bottom" constant="20" id="WLO-Dc-cwv"/>
+                            <constraint firstItem="BXk-3i-OwB" firstAttribute="leading" secondItem="Pv8-j2-lIM" secondAttribute="leadingMargin" id="Xwg-1N-Eve"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="About Art Critic" id="zsf-sZ-aGb">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="841-OG-oKM">
+                            <connections>
+                                <segue destination="cwo-zd-H3L" kind="unwind" unwindAction="unwindToList:" id="f7D-if-nEs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="acknowledgements" destination="SsX-3A-mSK" id="flY-9B-570"/>
+                        <outlet property="introText" destination="F31-XK-AQg" id="CSb-d2-1Wm"/>
+                        <outlet property="logoImage" destination="bk9-T4-47B" id="07G-Fr-u5j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jHJ-XA-kls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cwo-zd-H3L" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2385" y="337"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mFt-ar-rWp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OlS-Gp-ZZQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7L-Dq-y7O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.58823529409999997" green="0.2470588235" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="b7a-gR-GuW" kind="relationship" relationship="rootViewController" id="ZvS-hx-9mY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vjl-FS-WV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1809" y="408"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="60" height="60"/>
+    </resources>
+</document>
