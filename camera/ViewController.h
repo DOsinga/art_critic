@@ -18,8 +18,6 @@
     
 }
 
-@property(nonatomic, strong) AVCaptureSession *session;
-
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 
 

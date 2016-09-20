@@ -1,15 +1,13 @@
 {
   "images" : [
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Icon-29@2-2.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Icon-29@3-1.png",
+      "size" : "29x29",
       "scale" : "3x"
     },
     {
@@ -21,31 +19,30 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Icon-40@3.png",
+      "filename" : "Icon-120.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon-60@2.png",
+      "filename" : "Icon-60@2-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon-60@3.png",
+      "filename" : "Icon-60@3-1.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Icon-29.png",
+      "filename" : "Icon-Small.png",
       "scale" : "1x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Icon-29@2.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
@@ -79,18 +76,54 @@
       "scale" : "2x"
     },
     {
+      "size" : "60x60",
+      "idiom" : "car",
+      "filename" : "Icon-60@3.png",
+      "scale" : "3x"
+    },
+    {
       "size" : "29x29",
       "idiom" : "watch",
-      "filename" : "Icon-29@2-1.png",
+      "filename" : "Icon-Small@2.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "watch",
-      "filename" : "Icon-29@3.png",
+      "filename" : "Icon-Small@3.png",
       "role" : "companionSettings",
       "scale" : "3x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "iTunesArtwork.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "iTunesArtwork@2.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "Icon-40@3.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "Icon-60@2.png",
+      "unassigned" : true,
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Icon-83.5.png",
+      "unassigned" : true
     }
   ],
   "info" : {

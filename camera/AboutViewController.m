@@ -43,6 +43,7 @@
     }
     
     NSArray *tuples = @[@[@"Wikipedia", @"https://www.wikipedia.org"],
+                        @[@"TensorFlow", @"https://www.wikipedia.org"]
                         ];
     NSString *str = [self.acknowledgements.attributedText string];
     NSMutableAttributedString *attributedText = [[NSMutableAttributedString alloc] initWithAttributedString:self.acknowledgements.attributedText];
@@ -58,8 +59,8 @@
     self.acknowledgements.attributedText = attributedText;
     self.acknowledgements.font = self.introText.font;
     self.acknowledgements.frame = CGRectMake(self.acknowledgements.frame.origin.x,
-                                             self.acknowledgements.frame.origin.y,
-                                             self.view.bounds.size.width - 20,
+                                                 self.acknowledgements.frame.origin.y,
+                                                 self.view.bounds.size.width - 20,
                                              0);
     [self.acknowledgements sizeToFit];
     [self.acknowledgements setNeedsDisplay];

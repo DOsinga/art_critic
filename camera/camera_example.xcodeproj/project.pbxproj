@@ -13,18 +13,20 @@
 		591D3ECF1CFF7FCE0059011C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591D3ECE1CFF7FCE0059011C /* ImageIO.framework */; };
 		591D3ED21CFF85C30059011C /* ios_image_load.mm in Sources */ = {isa = PBXBuildFile; fileRef = 591D3ED11CFF85C30059011C /* ios_image_load.mm */; };
 		591D3ED51CFF85FD0059011C /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 591D3ED31CFF85FD0059011C /* tensorflow_utils.mm */; };
-		591D3EDA1CFFA83A0059011C /* grace_hopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 591D3ED71CFFA83A0059011C /* grace_hopper.jpg */; };
 		591D3EDF1CFFAD230059011C /* libprotobuf-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591D3EDD1CFFAD230059011C /* libprotobuf-lite.a */; };
 		591D3EE01CFFAD230059011C /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591D3EDE1CFFAD230059011C /* libprotobuf.a */; };
 		592FF8B918ECBD7600C164F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FF8B818ECBD7600C164F8 /* Foundation.framework */; };
 		592FF8BB18ECBD7600C164F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */; };
 		592FF90218ECC66200C164F8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 592FF90118ECC66200C164F8 /* main.mm */; };
-		592FF90D18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592FF90A18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard */; };
 		592FF92518EE240200C164F8 /* CameraExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592FF92218EE240200C164F8 /* CameraExampleAppDelegate.m */; };
-		592FF92618EE240200C164F8 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 592FF92418EE240200C164F8 /* CameraExampleViewController.mm */; };
 		5993C7721D5D4E980048CE6A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993C7711D5D4E980048CE6A /* Accelerate.framework */; };
 		D998089A1D8DB70C00CCC5BD /* art_graph_quant.pb in Resources */ = {isa = PBXBuildFile; fileRef = D99808981D8DB70C00CCC5BD /* art_graph_quant.pb */; };
 		D998089B1D8DB70C00CCC5BD /* art_graph_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = D99808991D8DB70C00CCC5BD /* art_graph_labels.txt */; };
+		D9D8A9E91D901CF90058C1F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D8A9E81D901CF90058C1F0 /* AboutViewController.m */; };
+		D9D8A9EB1D901DE90058C1F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D8A9EA1D901DE90058C1F0 /* Assets.xcassets */; };
+		D9D8A9F01D901F1D0058C1F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8A9EC1D901F1D0058C1F0 /* LaunchScreen.storyboard */; };
+		D9D8A9F11D901F1D0058C1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8A9EE1D901F1D0058C1F0 /* Main.storyboard */; };
+		D9D8A9F41D9021170058C1F0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9D8A9F31D9021170058C1F0 /* ViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,22 +40,25 @@
 		591D3ED11CFF85C30059011C /* ios_image_load.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ios_image_load.mm; sourceTree = SOURCE_ROOT; };
 		591D3ED31CFF85FD0059011C /* tensorflow_utils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tensorflow_utils.mm; sourceTree = SOURCE_ROOT; };
 		591D3ED41CFF85FD0059011C /* tensorflow_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tensorflow_utils.h; sourceTree = SOURCE_ROOT; };
-		591D3ED71CFFA83A0059011C /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
 		591D3EDD1CFFAD230059011C /* libprotobuf-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotobuf-lite.a"; path = "../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a"; sourceTree = "<group>"; };
-		591D3EDE1CFFAD230059011C /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = "../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a"; sourceTree = "<group>"; };
+		591D3EDE1CFFAD230059011C /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = ../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a; sourceTree = "<group>"; };
 		592FF8B518ECBD7600C164F8 /* CameraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592FF8B818ECBD7600C164F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		592FF8BA18ECBD7600C164F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		592FF90118ECC66200C164F8 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = SOURCE_ROOT; };
 		592FF90318ECCB8300C164F8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		592FF90B18EDD0DA00C164F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		592FF92118EE240200C164F8 /* CameraExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		592FF92218EE240200C164F8 /* CameraExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraExampleAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		592FF92318EE240200C164F8 /* CameraExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleViewController.h; sourceTree = SOURCE_ROOT; };
-		592FF92418EE240200C164F8 /* CameraExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraExampleViewController.mm; sourceTree = SOURCE_ROOT; };
 		5993C7711D5D4E980048CE6A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		D99808981D8DB70C00CCC5BD /* art_graph_quant.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = art_graph_quant.pb; sourceTree = "<group>"; };
 		D99808991D8DB70C00CCC5BD /* art_graph_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = art_graph_labels.txt; sourceTree = "<group>"; };
+		D9D8A9E71D901CF90058C1F0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = SOURCE_ROOT; };
+		D9D8A9E81D901CF90058C1F0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = SOURCE_ROOT; };
+		D9D8A9EA1D901DE90058C1F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		D9D8A9ED1D901F1D0058C1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D8A9EF1D901F1D0058C1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Main.storyboard; sourceTree = "<group>"; };
+		D9D8A9F21D9021170058C1F0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		D9D8A9F31D9021170058C1F0 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +86,6 @@
 			children = (
 				D99808981D8DB70C00CCC5BD /* art_graph_quant.pb */,
 				D99808991D8DB70C00CCC5BD /* art_graph_labels.txt */,
-				591D3ED71CFFA83A0059011C /* grace_hopper.jpg */,
 			);
 			path = data;
 			sourceTree = SOURCE_ROOT;
@@ -124,12 +128,15 @@
 		592FF8BE18ECBD7600C164F8 /* CameraExample */ = {
 			isa = PBXGroup;
 			children = (
+				D9D8A9F21D9021170058C1F0 /* ViewController.h */,
+				D9D8A9F31D9021170058C1F0 /* ViewController.mm */,
+				D9D8A9EA1D901DE90058C1F0 /* Assets.xcassets */,
+				D9D8A9E71D901CF90058C1F0 /* AboutViewController.h */,
+				D9D8A9E81D901CF90058C1F0 /* AboutViewController.m */,
 				591D3ED61CFFA83A0059011C /* data */,
 				592FF90718EDD0DA00C164F8 /* en.lproj */,
 				592FF92118EE240200C164F8 /* CameraExampleAppDelegate.h */,
 				592FF92218EE240200C164F8 /* CameraExampleAppDelegate.m */,
-				592FF92318EE240200C164F8 /* CameraExampleViewController.h */,
-				592FF92418EE240200C164F8 /* CameraExampleViewController.mm */,
 				592FF90318ECCB8300C164F8 /* Info.plist */,
 				591D3ED01CFF85C30059011C /* ios_image_load.h */,
 				591D3ED11CFF85C30059011C /* ios_image_load.mm */,
@@ -144,7 +151,8 @@
 		592FF90718EDD0DA00C164F8 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				592FF90A18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard */,
+				D9D8A9EC1D901F1D0058C1F0 /* LaunchScreen.storyboard */,
+				D9D8A9EE1D901F1D0058C1F0 /* Main.storyboard */,
 			);
 			path = en.lproj;
 			sourceTree = SOURCE_ROOT;
@@ -205,8 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D998089B1D8DB70C00CCC5BD /* art_graph_labels.txt in Resources */,
-				591D3EDA1CFFA83A0059011C /* grace_hopper.jpg in Resources */,
-				592FF90D18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D9D8A9F11D901F1D0058C1F0 /* Main.storyboard in Resources */,
+				D9D8A9F01D901F1D0058C1F0 /* LaunchScreen.storyboard in Resources */,
+				D9D8A9EB1D901DE90058C1F0 /* Assets.xcassets in Resources */,
 				D998089A1D8DB70C00CCC5BD /* art_graph_quant.pb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,9 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D8A9E91D901CF90058C1F0 /* AboutViewController.m in Sources */,
 				592FF90218ECC66200C164F8 /* main.mm in Sources */,
+				D9D8A9F41D9021170058C1F0 /* ViewController.mm in Sources */,
 				591D3ED21CFF85C30059011C /* ios_image_load.mm in Sources */,
-				592FF92618EE240200C164F8 /* CameraExampleViewController.mm in Sources */,
 				592FF92518EE240200C164F8 /* CameraExampleAppDelegate.m in Sources */,
 				591D3ED51CFF85FD0059011C /* tensorflow_utils.mm in Sources */,
 			);
@@ -229,12 +239,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		592FF90A18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard */ = {
+		D9D8A9EC1D901F1D0058C1F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				592FF90B18EDD0DA00C164F8 /* en */,
+				D9D8A9ED1D901F1D0058C1F0 /* en */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D8A9EE1D901F1D0058C1F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D8A9EF1D901F1D0058C1F0 /* en */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -243,6 +261,7 @@
 		592FF8AF18ECBD3600C164F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -251,6 +270,7 @@
 		592FF8B018ECBD3600C164F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 			};
 			name = Release;
 		};
@@ -259,11 +279,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -294,22 +314,22 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/proto",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/eigen-latest",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src/",
-                                        "$(SRCROOT)/../tensorflow",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/proto",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/eigen-latest",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src/",
+					"$(SRCROOT)/../tensorflow",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-force_load",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
 					"-Xlinker",
 					"-S",
 					"-Xlinker",
@@ -332,11 +352,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -361,22 +381,22 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/proto",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/eigen-latest",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src/",
-                                        "$(SRCROOT)/../tensorflow",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/proto",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/eigen-latest",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src/",
+					"$(SRCROOT)/../tensorflow",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/lib",
+					"$(SRCROOT)/../tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-force_load",
-                                        "$(SRCROOT)/../tensorflow/tensorflow/makefile/gen/lib/libtensorflow-core.a",
+					"$(SRCROOT)/../tensorflow/tensorflow/makefile/gen/lib/libtensorflow-core.a",
 					"-Xlinker",
 					"-S",
 					"-Xlinker",
