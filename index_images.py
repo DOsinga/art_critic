@@ -44,9 +44,12 @@ def main(model_path, images_path, image_match_model, thumbnail_path):
           im = Image.open(image_path)
         except OSError:
           continue
+        except IOError:
+          continue
         hash_id = '%02x' % (hash(fn) % 255)
         if not os.path.isdir(os.path.join(thumbnail_path, hash_id)):
           os.mkdir(os.path.join(thumbnail_path, hash_id))
+        im.thumbnail((240, 240))
         im.save(os.path.join(thumbnail_path, hash_id, fn))
         painting['thumbnail'] = os.path.join(hash_id, fn)
         painting['thumbnail_width'], painting['thumbnail_height'] = im.size
@@ -56,10 +59,6 @@ def main(model_path, images_path, image_match_model, thumbnail_path):
       image_infos.append(painting)
       image_vectors.append(bottleneck_values)
       print(fn)
-      if len(image_infos) > 200:
-        break
-    if len(image_infos) > 200:
-      break
 
   print('building nearest neighbors model')
   nbrs = NearestNeighbors(n_neighbors=20, algorithm='ball_tree').fit(image_vectors)
