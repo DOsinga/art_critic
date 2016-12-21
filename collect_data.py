@@ -94,7 +94,7 @@ def get_art_cats(postgres_cursor, json_out):
     processed_cats(postgres_cursor, painting_cats, rc)
   return root_cats, artist_cats, painting_cats
 
-#@stored_json('paintings.json')
+@stored_json('paintings.json')
 def get_paintings(postgres_cursor, json_out):
   postgres_cursor.execute("select * from wikipedia where general @> ARRAY['paintings']")
   res = []
